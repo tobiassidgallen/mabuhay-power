@@ -14,7 +14,7 @@ app.use(express.static(path.join(__dirname)));
 
 // Email configuration
 const transporter = nodemailer.createTransport({
-    service: 'yahoo',
+    service: 'gmail',
     auth: {
         user: process.env.EMAIL_USER,
         pass: process.env.EMAIL_PASS
@@ -28,7 +28,7 @@ app.post('/api/contact', async (req, res) => {
     try {
         const mailOptions = {
             from: process.env.EMAIL_USER,
-            to: 'mabuhay.power@yahoo.com.ph',
+            to: 'tobiassidgallen@gmail.com',
             subject: 'New Contact Form Submission',
             html: `
                 <h3>New Contact Form Submission</h3>

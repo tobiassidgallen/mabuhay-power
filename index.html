@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 <body>
     <!-- Navigation -->
@@ -49,37 +50,100 @@
     <section id="services" class="services">
         <div class="container">
             <h2>Our Services</h2>
-            <div class="services-grid">
-                <div class="service-card">
-                    <img src="assets/generator-repair.jpg" alt="Generator Repair & Maintenance" class="service-image">
-                    <i class="fas fa-tools"></i>
-                    <h3>Generator Repair & Maintenance</h3>
-                    <p>Professional maintenance and repair services for all types of generators</p>
+            <div class="swiper services-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="service-card">
+                            <img src="assets/engineoverhauling.jpg" alt="Engine Overhauling" class="service-image">
+                            <i class="fas fa-cogs"></i>
+                            <h3>Engine Overhauling</h3>
+                            <p>Complete engine overhaul services for optimal performance and reliability</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="service-card">
+                            <img src="assets/radiator.jpg" alt="Radiator Overhauling" class="service-image">
+                            <i class="fas fa-temperature-high"></i>
+                            <h3>Radiator Overhauling & Change Core</h3>
+                            <p>Professional radiator maintenance and core replacement services</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="service-card">
+                            <img src="assets/genset.jpg" alt="Genset Installation" class="service-image">
+                            <i class="fas fa-truck-loading"></i>
+                            <h3>Genset Installation & Relocation</h3>
+                            <p>Expert installation and relocation services for all types of generators</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="service-card">
+                            <img src="assets/enclosuregenset.jpg" alt="Genset Enclosure" class="service-image">
+                            <i class="fas fa-box"></i>
+                            <h3>Genset Enclosure Fabrication</h3>
+                            <p>Custom fabrication of generator enclosures for protection and noise reduction</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="service-card">
+                            <img src="assets/motorrewinding.jpg" alt="Motor Rewinding" class="service-image">
+                            <i class="fas fa-sync"></i>
+                            <h3>Motor Rewinding/Reconditioning</h3>
+                            <p>Professional rewinding and reconditioning services for all types of motors</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="service-card">
+                            <img src="assets/synchronizing.jpg" alt="Generator Synchronizing" class="service-image">
+                            <i class="fas fa-random"></i>
+                            <h3>Synchronizing of Generator</h3>
+                            <p>Expert synchronization services for multiple generator systems</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="service-card">
+                            <img src="assets/maintenance.jpg" alt="Preventive Maintenance" class="service-image">
+                            <i class="fas fa-tools"></i>
+                            <h3>Preventive Maintenance Services</h3>
+                            <p>Regular maintenance programs to ensure optimal generator performance</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="service-card">
+                            <img src="assets/upgrading.jpg" alt="Controller Upgrade" class="service-image">
+                            <i class="fas fa-microchip"></i>
+                            <h3>Upgrading of Generator Controllers</h3>
+                            <p>Modern controller system upgrades for enhanced generator control</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="service-card">
+                            <img src="assets/generator.jpg" alt="Powerhouse Design" class="service-image">
+                            <i class="fas fa-drafting-compass"></i>
+                            <h3>Design of Generator Powerhouse</h3>
+                            <p>Professional design services for generator powerhouses</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="service-card">
+                            <img src="assets/rental.jpg" alt="Generator Rental" class="service-image">
+                            <i class="fas fa-handshake"></i>
+                            <h3>Generator Rental</h3>
+                            <p>Flexible rental solutions for temporary power needs</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="service-card">
+                            <img src="assets/loadbank.jpg" alt="Loadbank" class="service-image">
+                            <i class="fas fa-bolt"></i>
+                            <h3>Loadbank</h3>
+                            <p>Comprehensive load testing services for generator systems</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="service-card">
-                    <img src="assets/motor-rewinding.jpg" alt="Motor Rewinding" class="service-image">
-                    <i class="fas fa-cogs"></i>
-                    <h3>Motor Rewinding</h3>
-                    <p>Expert motor rewinding services for optimal performance</p>
-                </div>
-                <div class="service-card">
-                    <img src="assets/electrical-installation.jpg" alt="Electrical Installation" class="service-image">
-                    <i class="fas fa-bolt"></i>
-                    <h3>Electrical Installation</h3>
-                    <p>Complete electrical installation solutions for your needs</p>
-                </div>
-                <div class="service-card">
-                    <img src="assets/fabrication.jpg" alt="Fabrication" class="service-image">
-                    <i class="fas fa-industry"></i>
-                    <h3>Fabrication</h3>
-                    <p>Custom fabrication services for industrial applications</p>
-                </div>
-                <div class="service-card">
-                    <img src="assets/cladding.jpg" alt="Cladding" class="service-image">
-                    <i class="fas fa-layer-group"></i>
-                    <h3>Cladding</h3>
-                    <p>Professional cladding services for protection and aesthetics</p>
-                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
             </div>
         </div>
     </section>
@@ -91,14 +155,30 @@
                 <h2>About Us</h2>
                 <div class="about-grid">
                     <div class="about-text">
-                        <p>Mabuhay Power & Diesel Generator Services is a trusted provider of comprehensive power solutions, serving businesses and industries across the Philippines.</p>
-                        <p>With years of experience and a team of skilled technicians, we deliver reliable generator repair, maintenance, motor rewinding, electrical installation, fabrication, and cladding services.</p>
-                        <p>Our commitment to quality, efficiency, and customer satisfaction has made us a preferred partner for businesses seeking dependable power solutions.</p>
+                        <p>MABUHAY POWER & DIESEL GENERATOR SERVICES CO., LTD. was organized on 27 July 2012 in Carmona, Cavite by four distinct people who are creative, hardworking, trustworthy, and dedicated to their works and responsibilities. They are committed in their intension to serve generators engine to the best that they can. The organizers were former employees and staff of Cummins Power Generator.</p>
+                        <p>MABUHAY POWER & DIESEL GENERATOR SERVICES CO., LTD. extends their services further, not only in selling Cummins and other brands of generator to our valued customers, but also offering the best quality services for repair and maintenance. We offer and repair other brand of generators with lesser cost but with world class standard.</p>
                     </div>
                     <div class="about-images">
                         <img src="assets/about1.jpg" alt="Construction Work" class="about-image">
                         <img src="assets/about2.jpg" alt="Industrial Work" class="about-image">
                         <img src="assets/about3.jpg" alt="Technical Work" class="about-image">
+                    </div>
+                </div>
+                <div class="company-values">
+                    <div class="value-card">
+                        <i class="fas fa-bullseye"></i>
+                        <h3>Our Objective</h3>
+                        <p>To contribute unequalled quality of products and services to the users of generators and help our country in industrialization using modern technology.</p>
+                    </div>
+                    <div class="value-card">
+                        <i class="fas fa-rocket"></i>
+                        <h3>Our Mission</h3>
+                        <p>Mabuhay Power supplies the power needs of our clients through our various offered products and maintenance services. We focus our energy and dedication on ensuring that our client's businesses are well-protected. We seek to provide the best value to our customers, grow a profitable business, and provide job opportunities for our fellow countrymen.</p>
+                    </div>
+                    <div class="value-card">
+                        <i class="fas fa-eye"></i>
+                        <h3>Our Vision</h3>
+                        <p>Mabuhay Power aims to be the leading generator service provider in the country by constantly innovating our approach and advancing our technologies in the quest to deliver the best customer service.</p>
                     </div>
                 </div>
                 <div class="stats-container">
@@ -109,7 +189,7 @@
                     </div>
                     <div class="stat-card">
                         <i class="fas fa-project-diagram"></i>
-                        <h3>500+</h3>
+                        <h3>40+</h3>
                         <p>Projects Completed</p>
                     </div>
                     <div class="stat-card">
@@ -130,65 +210,74 @@
     <!-- Projects Section -->
     <section id="projects" class="projects">
         <div class="container">
-            <h2>Our Projects</h2>
+            <h2>Featured Projects</h2>
             <div class="projects-grid">
                 <div class="project-card">
-                    <img src="assets/project1.jpg" alt="Industrial Generator Installation">
+                    <img src="assets/project1.jpg" alt="2MVA Caterpillar Generator Set Synchronization" class="service-image">
                     <div class="project-content">
-                        <h3>Industrial Power Generator Installation</h3>
-                        <p>Installation of a 500kW diesel generator for a manufacturing facility, providing reliable backup power.</p>
-                        <span class="project-location">Manila, Philippines</span>
-                        <span class="project-tags">Generator Installation</span>
+                        <h3>2 UNITS 2MVA CATERPILLAR GENERATOR SET SYNCHRONIZATION</h3>
+                        <p>Implementation of Deepsea 8610 Engine Control Module for enhanced generator synchronization and performance optimization.</p>
+                        <span class="project-location">San Miguel Corporation, Mabini, Batangas</span>
+                        <a href="project1.html" class="project-link">View Project Details</a>
                     </div>
                 </div>
                 <div class="project-card">
-                    <img src="assets/project2.jpg" alt="Commercial Electrical Installation">
+                    <img src="assets/project2.jpg" alt="Smartgen Control Module Installation" class="service-image">
                     <div class="project-content">
-                        <h3>Commercial Electrical Installation</h3>
-                        <p>Complete electrical system installation for a new commercial building with advanced control systems.</p>
-                        <span class="project-location">Quezon City, Philippines</span>
-                        <span class="project-tags">Electrical Installation</span>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <img src="assets/project3.jpg" alt="Industrial Motor Rewinding">
-                    <div class="project-content">
-                        <h3>Industrial Motor Rewinding</h3>
-                        <p>Rewinding of multiple high-capacity motors for a food processing plant to restore optimal performance.</p>
-                        <span class="project-location">Cavite, Philippines</span>
-                        <span class="project-tags">Motor Rewinding</span>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <img src="assets/project4.jpg" alt="Custom Metal Fabrication">
-                    <div class="project-content">
-                        <h3>Custom Metal Fabrication</h3>
-                        <p>Custom fabrication of specialized metal components for a power generation facility.</p>
-                        <span class="project-location">Batangas, Philippines</span>
-                        <span class="project-tags">Fabrication</span>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <img src="assets/project5.jpg" alt="Hospital Generator Maintenance">
-                    <div class="project-content">
-                        <h3>Hospital Generator Maintenance</h3>
-                        <p>Preventative maintenance program for critical backup generators at a major hospital facility.</p>
-                        <span class="project-location">Makati, Philippines</span>
-                        <span class="project-tags">Maintenance</span>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <img src="assets/project6.jpg" alt="Industrial Building Cladding">
-                    <div class="project-content">
-                        <h3>Industrial Building Cladding</h3>
-                        <p>Complete cladding installation for a new industrial facility, providing weather protection and insulation.</p>
-                        <span class="project-location">Laguna, Philippines</span>
-                        <span class="project-tags">Cladding</span>
+                        <h3>SMARTGEN CONTROL MODULE INSTALLATION</h3>
+                        <p>Upgrade of Caterpillar Generator control system with Smartgen Module and starter motor solenoid repair at Taal Vista Hotel.</p>
+                        <span class="project-location">SM Prime Holdings Inc., Tagaytay, Cavite</span>
+                        <a href="project2.html" class="project-link">View Project Details</a>
                     </div>
                 </div>
             </div>
-            <div class="projects-cta">
-                <a href="#contact" class="cta-button">Discuss your project with us</a>
+
+            <div class="clients-section">
+                <h2>Our Valued Clients</h2>
+                <div class="clients-grid">
+                    <ul class="clients-list">
+                        <li>AXELUM RESOURCES CORP.</li>
+                        <li>OPTODEV-ESSILOR</li>
+                        <li>SM PRIME HOLDINGS-TAAL VISTA HOTEL</li>
+                        <li>SM-PRIME HOLDING-PICO DE LORO BEACH & COUNTRY CLUB</li>
+                        <li>SUNTRUST SHANATA CONDOMINIUM</li>
+                        <li>MANILA TOLL EXPRESSWAY (MATES)</li>
+                        <li>STAR TOLLWAY CORP./SKYWAY CORP.</li>
+                        <li>ALABANG NUMBERS & GAMING CORP.</li>
+                        <li>CALTEX GAS STATION MALIBAY</li>
+                        <li>PHILIPPINE GEOTHERMAL PRODUCTION COMPANY</li>
+                        <li>METRO PROPERTIES INC.</li>
+                        <li>DAE KYUNG PHILIPPINES</li>
+                        <li>SAN MIGUEL MILLS INC.</li>
+                        <li>SAN MIGUEL FOODS INC.</li>
+                        <li>MANILA JOCKEY CLUB</li>
+                        <li>PHILIPPINE RACING CLUB</li>
+                        <li>MAGNOLIA INC.</li>
+                        <li>PIGMENTEX INC.</li>
+                        <li>MORIROKU PHILS. INC.</li>
+                        <li>DAIHO PHILS. INC.</li>
+                        <li>EMILIO AGUINALDO COLLEGE MEDICAL CENTER</li>
+                        <li>CASINO FILIPINO</li>
+                        <li>TAGAYTAY HIGHLANDS</li>
+                        <li>PRICON MICROMETAL INC.</li>
+                        <li>JOLLIBEE FOODS INC.</li>
+                        <li>HOTEL KIMBERLY</li>
+                        <li>CREATIVE DIECAST</li>
+                        <li>NUTRATECH</li>
+                        <li>NIPPON MICROMETAL INC.</li>
+                        <li>CABUYAO WATER DISTRICT</li>
+                        <li>POWERTECH ASIA PACIFIC INC.</li>
+                        <li>EDS MANUFACTURING INC.</li>
+                        <li>RRQ</li>
+                        <li>PORTION FILLERS INC.</li>
+                        <li>GOLDEN BAY GRAIN TERMINAL INC.</li>
+                        <li>TOTAL GAMEZONE XTREME</li>
+                        <li>ELENASY POULTRY FARM</li>
+                        <li>SHERIDAN BEACH & RESORT</li>
+                        <li>PUERTO AZUL</li>
+                        <li>SHIN-ETSU MAGNETIC PHILS INC.</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>
@@ -273,11 +362,17 @@
                 <div class="footer-section">
                     <h3>Our Services</h3>
                     <ul>
-                        <li><a href="#services"><i class="fas fa-tools"></i> Generator Repair & Maintenance</a></li>
-                        <li><a href="#services"><i class="fas fa-cogs"></i> Motor Rewinding</a></li>
-                        <li><a href="#services"><i class="fas fa-bolt"></i> Electrical Installation</a></li>
-                        <li><a href="#services"><i class="fas fa-industry"></i> Fabrication</a></li>
-                        <li><a href="#services"><i class="fas fa-layer-group"></i> Cladding</a></li>
+                        <li><a href="#services"><i class="fas fa-cogs"></i> Engine Overhauling</a></li>
+                        <li><a href="#services"><i class="fas fa-temperature-high"></i> Radiator Overhauling & Change Core</a></li>
+                        <li><a href="#services"><i class="fas fa-truck-loading"></i> Genset Installation & Relocation</a></li>
+                        <li><a href="#services"><i class="fas fa-box"></i> Genset Enclosure Fabrication</a></li>
+                        <li><a href="#services"><i class="fas fa-sync"></i> Motor Rewinding/Reconditioning</a></li>
+                        <li><a href="#services"><i class="fas fa-random"></i> Synchronizing of Generator</a></li>
+                        <li><a href="#services"><i class="fas fa-tools"></i> Preventive Maintenance Services</a></li>
+                        <li><a href="#services"><i class="fas fa-microchip"></i> Upgrading of Generator Controllers</a></li>
+                        <li><a href="#services"><i class="fas fa-drafting-compass"></i> Design of Generator Powerhouse</a></li>
+                        <li><a href="#services"><i class="fas fa-handshake"></i> Generator Rental</a></li>
+                        <li><a href="#services"><i class="fas fa-bolt"></i> Loadbank</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
@@ -300,6 +395,7 @@
         </div>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
