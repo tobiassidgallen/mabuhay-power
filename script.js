@@ -103,7 +103,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
                 for (let port = 3000; port <= 3010; port++) {
                     try {
-                        response = await fetch(`http://localhost:${port}/api/contact`, {
+                        response = await fetch(`https://mabuhay-power-backend.onrender.com/api/contact`, {
                             method: 'POST',
                             headers: {
                                 'Content-Type': 'application/json'
